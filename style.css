@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+    opacity: 0.83;
+    background: linear-gradient(0deg, rgba(0,42,91,1) 0%, rgba(24,24,222,1) 35%, rgba(3,163,195,1) 100%);
+    color: #fff;
+}
+.flex-container img{
+    border-radius: 50%;
+}
+.flex-container h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.flex-container span{
+    font-size: 40px;
+}
+.flex-container h2{
+    font-family: monospace;
+}
